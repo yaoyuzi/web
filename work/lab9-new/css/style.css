@@ -2,7 +2,7 @@
 	margin:0px auto;
 	padding:0px;
 	font-size:12px;
-	list-style:none;
+	/*list-style:none;*/
 	font-family: 宋体;
 	color:#522a06;}
 img{
@@ -68,7 +68,11 @@ a:hover{
 	text-align:center;}
 .nav_content a:hover{
 	color:#f9f603;
-	text-decoration:none;}
+	text-decoration:none;
+}
+.page a{
+	color: #f9f603;
+}
 .search{
 	width:140px;
 	height:19px;
@@ -94,6 +98,7 @@ a:hover{
 	overflow:hidden;
 }
 #content_top{
+	margin-top: 10px;
 	overflow: hidden;
 }
 .news_pic{
@@ -124,24 +129,38 @@ a:hover{
 	height: 35px;
 	background-repeat: no-repeat;
 }
+.one  span img{
+	height: 30px;
+}
 .news_list ul li{
 	line-height: 30px;
+	
+}
+.news_list ul{
+	list-style-type: disc;
 }
 .news_announce{
-	width: 280px;
-	margin-top: 15px;
-	float: left;
-	margin-left: 30px;
-	text-align: center;
-
+	width: 277px;
+	margin-top: 10px;
+	float: right;
+	/*margin-left: 30px;*/
 }
 .news_announce ul li{
 	line-height: 30px;
 }
 .two{
 	background-image: url(../images/board_bg.png);
+	background-repeat: no-repeat;
 	padding-top: 5px;
-	padding-bottom: 20px;
+	/*padding-bottom: 20px;*/
+	width: 285px;
+	height: 210px;
+	padding-left: 5px;
+}
+.two ul{
+	list-style-type: disc;
+	list-style-position: inside;
+
 }
 #content_bottom_left{
 	width: 715px;
@@ -152,8 +171,12 @@ a:hover{
 	background-repeat: no-repeat;
 	background-image: url(../images/academic.png);
 }
+
 .academic ul li{
 	line-height: 30px;
+}
+.academic ul{
+	list-style: disc;
 }
 .academic{
 	width: 330px;
@@ -168,6 +191,9 @@ a:hover{
 }
 .book_news ul li{
 	line-height: 30px;
+}
+.book_news ul{
+	list-style: disc;
 }
 .book_news{
 	width: 330px;
@@ -196,6 +222,9 @@ a:hover{
 	height: 150px;
 	background-repeat: no-repeat;
 
+}
+.fengcai_bg ul{
+	list-style: none;
 }
 .mszs{
 	width:280px;
@@ -257,4 +286,7 @@ a:hover{
 	text-align: center;
 	width: 700px;
 
+}
+.a ul{
+	list-style: none;
 }
