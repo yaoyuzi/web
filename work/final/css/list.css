@@ -1,0 +1,177 @@
+
+/*.list{
+	width: 600px;
+}*/
+/*.a{
+	text-decoration: none;
+}
+.a:hover{
+	color:#b9f605;
+}*/
+.food{
+	height: 20px;
+	width: 1000px;
+	font-size:8px;
+	font-family: 'Arial';
+	font-weight: 300px;
+	margin-left: 200px;
+}
+.food a{
+	float: left;
+	text-decoration: none;
+}
+.food a:hover{
+color: red;
+}
+.color{
+	float: left;
+	color:#b9f605;
+}
+.food p{
+	float: left;
+}
+.left{
+	width: 870px;
+	margin-top: 35px;
+	/*margin-left: 30px;*/
+	float:right;
+	margin-bottom: 45px;
+}
+.one img{
+	width: 50px;
+	height: 30px;
+	float: left;
+
+}
+.list{
+
+	float: left;
+	/*margin-bottom: 5px;*/
+	/*margin-top: 30px;*/
+}
+.list img{
+	opacity: 0.8;
+	margin-left: -20px;
+	height: 60px;
+	width: 590px
+}
+.list ul{
+	margin-left: -20px;
+	/*background-image: url(../images/4.png);*/
+	margin-top: 5px;
+}
+.list li{
+	/*background-image: url(../images/4.png);*/
+	list-style-position: inside;
+	list-style-image: url(../images/x50.jpg);
+
+}
+.list a{
+	text-decoration: none;
+}
+.list a:hover{
+	color: #b9f605;
+}
+.list ul{
+	margin-bottom:10px;
+}
+.table a{
+	color:blue;
+}
+.three{
+	color: red;
+}
+
+.right{
+	margin-left: -250px;
+	width: 200px;
+	/*height: 600px;*/
+	float: left;
+	/*background-image: url(../images/6.png);*/
+}
+.two{
+	
+	margin-left: 52px;
+	width: 300px;
+	height: 100px;
+	/*background-image: url(../images/6.png);*/
+}
+.right img{
+	width: 50px;
+	height: 30px;
+	float: left;
+
+}
+.two ul{
+	margin-bottom: 15px;
+	margin-top: 13px;
+	margin-left: 50px;
+}
+.two li{
+	list-style-type: disc;
+	list-style-position: inside;
+}
+.two a{
+	color: gray;
+
+	text-decoration: none;
+}
+.two a:hover{
+	color: #b9f605;
+}
+.two {
+	width: 300px;
+}
+.two .tui{
+	padding-left: 8px;
+width: 206px;
+	height:36px;
+}
+.two .self{
+	padding-left: 8px;
+	width: 206px;
+	height: 200px;
+}
+.two h3{
+	padding-left: 20px;
+	padding-bottom: 5px;
+	/*text-align: center;
+	padding-top: -2px;*/
+}
+.pas{
+	margin-left: 50px;
+	width: 200px;
+}
+ .pas p{
+ 	padding-left: 8px;
+ 	color:gray;
+ 	font-family: 'Arial';
+ 	font-size: 15px;
+	float: none;
+}
+#footer{
+	/*color:  #c0c0c0;*/
+     background-position:center;	
+	/*width: 3000px;*/
+	text-align:center;
+	/*height:105px;*/
+}
+#footer img{
+	margin-left: 445px;
+	margin-top: 15px;
+	/*margin-bottom: 5px;*/
+	width: 600px;
+	height: 2px;
+}
+.pass{
+	margin-left: -2px;
+	margin-top:5px;
+	/*float: left;*/
+	margin-right: 600px;
+	float: right;
+	text-align: center; 
+	}
+.pass p{
+	font-family: 宋体;
+	font-size: 10px;
+}
